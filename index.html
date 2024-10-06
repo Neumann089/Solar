@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCS Client Connect Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .firmenuebersicht {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border: 1px solid #ddd;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        input[type="text"], input[type="email"], input[type="url"], input[type="submit"] {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CCS Client Connect Service</h1>
+    <p>Maximieren Sie Ihre Dachmiete und Investieren Sie in Zukunftssichere Photovoltaik-Technologie.</p>
+</header>
+
+<nav>
+    <a href="#firmenuebersicht">Firmenübersicht</a>
+    <a href="#vorteile">Vorteile</a>
+    <a href="#anfrage">Direkte Anfrage senden</a>
+</nav>
+
+<section id="firmenuebersicht">
+    <h2>Firmenübersicht</h2>
+    <div class="firmenuebersicht">
+        <p>Hier ist eine Übersicht der Firmen, die Dachverpachtung und -vermietung anbieten.</p>
+        <table>
+            <tr>
+                <th>Firma</th>
+                <th>Angebot</th>
+                <th>Kontakt</th>
+            </tr>
+            <tr>
+                <td>Firma 1</td>
+                <td>Einmalzahlung</td>
+                <td>info@firma1.com</td>
+            </tr>
+            <tr>
+                <td>Firma 2</td>
+                <td>Jährliche Zahlung</td>
+                <td>info@firma2.com</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="vorteile">
+    <h2>Vorteile der Dachvermietung</h2>
+    <p>Sicheres Nebeneinkommen und garantierte Renditen bei minimalem Risiko. Investieren Sie in die Zukunft mit Photovoltaik-Technologie.</p>
+</section>
+
+<section id="anfrage">
+    <h2>Direkte Anfrage senden</h2>
+    <form>
+        <label for="name">Ihr Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Ihre E-Mail:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="adresse">Standort des Dachs (Google Maps Link):</label>
+        <input type="url" id="adresse" name="adresse" required>
+        
+        <label for="zahlung">Bevorzugte Auszahlungsoption:</label>
+        <input type="text" id="zahlung" name="zahlung" required>
+
+        <input type="submit" value="Anfrage senden">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 CCS Client Connect Service</p>
+</footer>
+
+</body>
+</html>
