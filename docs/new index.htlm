@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCS Photovoltaik Dachvermietung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #004d40;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #00796b;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x500'); /* Placeholder image */
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 48px;
+        }
+        .section {
+            padding: 40px 20px;
+        }
+        .section h2 {
+            color: #00796b;
+        }
+        .section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .cta {
+            background-color: #004d40;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .cta:hover {
+            background-color: #00796b;
+        }
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CCS Photovoltaik Dachvermietung</h1>
+</header>
+
+<nav>
+    <a href="#vorteile">Vorteile</a>
+    <a href="#investieren">Investitionsmöglichkeiten</a>
+    <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section class="hero">
+    <h1>Maximieren Sie Ihre Einnahmen mit Solarenergie</h1>
+    <p>Wir bieten Ihnen die besten Konditionen für die Vermietung Ihrer Dachflächen</p>
+</section>
+
+<section id="vorteile" class="section">
+    <h2>Vorteile der Dachvermietung</h2>
+    <p>Durch die Vermietung Ihrer Dachfläche können Sie garantierte und langfristige Einnahmen erzielen, ohne dass Sie sich um Wartung oder Investitionen kümmern müssen.</p>
+    <a href="#kontakt" class="cta">Jetzt Kontakt aufnehmen</a>
+</section>
+
+<section id="investieren" class="section">
+    <h2>Investitionsmöglichkeiten</h2>
+    <p>Investieren Sie in zukunftssichere, nachhaltige Solarprojekte und profitieren Sie von stabilen Renditen über 20 Jahre. Wir bieten transparente und lukrative Möglichkeiten für Investoren.</p>
+</section>
+
+<section id="kontakt" class="section">
+    <h2>Kontaktieren Sie uns</h2>
+    <p>Haben Sie Fragen oder möchten Sie eine Beratung? Füllen Sie das Kontaktformular aus, und wir melden uns umgehend bei Ihnen.</p>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">E-Mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Nachricht:</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+
+        <input type="submit" value="Absenden">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 CCS Photovoltaik Dachvermietung. Alle Rechte vorbehalten.</p>
+</footer>
+
+</body>
+</html>
