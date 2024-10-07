@@ -3,75 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CCS Client Connect Service</title>
+    <title>CCS - Photovoltaik Dachvermietung</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
+            background-color: #f5f5f5;
         }
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
             text-align: center;
         }
         nav {
-            margin: 20px;
-            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px;
         }
         nav a {
-            color: #333;
+            color: white;
             text-decoration: none;
-            margin: 0 15px;
             font-size: 18px;
         }
-        section {
-            padding: 20px;
+        .hero {
+            background-image: url('hero-image.jpg'); /* Ein Beispielbild hier einfügen */
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            color: white;
             text-align: center;
         }
-        .firmenuebersicht {
-            background-color: #fff;
-            padding: 20px;
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .cta {
+            background-color: #333;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 20px;
             margin: 20px auto;
-            width: 80%;
-            border: 1px solid #ddd;
+            display: inline-block;
         }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
+        .advantages, .invest {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
         }
-        table, th, td {
-            border: 1px solid #ddd;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
+        .advantages div, .invest div {
+            background-color: white;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 10px 0;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        input[type="text"], input[type="email"], input[type="url"], input[type="submit"] {
             padding: 10px;
-            margin: 10px 0;
+            position: fixed;
             width: 100%;
-        }
-        input[type="submit"] {
-            background-color: #333;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color: #555;
+            bottom: 0;
         }
     </style>
 </head>
@@ -79,60 +79,70 @@
 
 <header>
     <h1>CCS Client Connect Service</h1>
-    <p>Maximieren Sie Ihre Dachmiete und Investieren Sie in Zukunftssichere Photovoltaik-Technologie.</p>
+    <p>Die besten Angebote für Photovoltaik-Dachvermietung und Investitionen</p>
 </header>
 
 <nav>
-    <a href="#firmenuebersicht">Firmenübersicht</a>
     <a href="#vorteile">Vorteile</a>
-    <a href="#anfrage">Direkte Anfrage senden</a>
+    <a href="#invest">Investitionsmöglichkeiten</a>
+    <a href="#kontakt">Kontakt</a>
 </nav>
 
-<section id="firmenuebersicht">
-    <h2>Firmenübersicht</h2>
-    <div class="firmenuebersicht">
-        <p>Hier ist eine Übersicht der Firmen, die Dachverpachtung und -vermietung anbieten.</p>
-        <table>
-            <tr>
-                <th>Firma</th>
-                <th>Angebot</th>
-                <th>Kontakt</th>
-            </tr>
-            <tr>
-                <td>Firma 1</td>
-                <td>Einmalzahlung</td>
-                <td>info@firma1.com</td>
-            </tr>
-            <tr>
-                <td>Firma 2</td>
-                <td>Jährliche Zahlung</td>
-                <td>info@firma2.com</td>
-            </tr>
-        </table>
+<section class="hero">
+    <h1>Maximieren Sie Ihre Dachmiete</h1>
+    <p>Profitieren Sie von sicheren und langfristigen Einnahmen durch Photovoltaik</p>
+</section>
+
+<section id="vorteile" class="section">
+    <h2>Vorteile der Dachvermietung</h2>
+    <div class="advantages">
+        <div>
+            <h3>Garantierte Einnahmen</h3>
+            <p>Langfristige Einnahmen ohne Aufwand. Lassen Sie Ihr Dach für Sie arbeiten.</p>
+        </div>
+        <div>
+            <h3>Kein Risiko</h3>
+            <p>Vollständig abgesicherte Investitionen und keine Kosten für Sie.</p>
+        </div>
+        <div>
+            <h3>Umweltfreundlich</h3>
+            <p>Helfen Sie mit, saubere Energie zu produzieren und unsere Umwelt zu schützen.</p>
+        </div>
     </div>
 </section>
 
-<section id="vorteile">
-    <h2>Vorteile der Dachvermietung</h2>
-    <p>Sicheres Nebeneinkommen und garantierte Renditen bei minimalem Risiko. Investieren Sie in die Zukunft mit Photovoltaik-Technologie.</p>
+<section id="invest" class="section">
+    <h2>Investitionsmöglichkeiten</h2>
+    <div class="invest">
+        <div>
+            <h3>Höchste Rendite</h3>
+            <p>Erzielen Sie bis zu 9% jährliche Rendite durch Ihre Investition in Photovoltaik.</p>
+        </div>
+        <div>
+            <h3>Einmalzahlung</h3>
+            <p>Erhalten Sie eine hohe Einmalzahlung für die Dachnutzung über 20 Jahre.</p>
+        </div>
+        <div>
+            <h3>Langfristige Sicherheit</h3>
+            <p>Profitieren Sie von einem stabilen und langfristigen Geschäftsmodell.</p>
+        </div>
+    </div>
+    <a href="#kontakt" class="cta">Jetzt Kontakt aufnehmen</a>
 </section>
 
-<section id="anfrage">
-    <h2>Direkte Anfrage senden</h2>
+<section id="kontakt" class="section">
+    <h2>Kontaktieren Sie uns</h2>
     <form>
-        <label for="name">Ihr Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Ihre E-Mail:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="adresse">Standort des Dachs (Google Maps Link):</label>
-        <input type="url" id="adresse" name="adresse" required>
-        
-        <label for="zahlung">Bevorzugte Auszahlungsoption:</label>
-        <input type="text" id="zahlung" name="zahlung" required>
+        <label for="name">Ihr Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
 
-        <input type="submit" value="Anfrage senden">
+        <label for="email">Ihre E-Mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Ihre Nachricht:</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+
+        <input type="submit" value="Nachricht senden">
     </form>
 </section>
 
